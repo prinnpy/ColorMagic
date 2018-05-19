@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		5BEEB28F20AF726A0033BC1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEEB28E20AF726A0033BC1E /* AppDelegate.swift */; };
-		5BEEB29120AF726A0033BC1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEEB29020AF726A0033BC1E /* ViewController.swift */; };
+		5BEEB29120AF726A0033BC1E /* ColorPresenterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEEB29020AF726A0033BC1E /* ColorPresenterVC.swift */; };
 		5BEEB29420AF726A0033BC1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BEEB29220AF726A0033BC1E /* Main.storyboard */; };
 		5BEEB29620AF726C0033BC1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BEEB29520AF726C0033BC1E /* Assets.xcassets */; };
 		5BEEB29920AF726C0033BC1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BEEB29720AF726C0033BC1E /* LaunchScreen.storyboard */; };
+		5BEEB2A120AF76AA0033BC1E /* ColorPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEEB2A020AF76AA0033BC1E /* ColorPickerVC.swift */; };
+		5BEEB2A320AF78D70033BC1E /* ColorTransferDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEEB2A220AF78D70033BC1E /* ColorTransferDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5BEEB28B20AF726A0033BC1E /* ColorMagic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorMagic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BEEB28E20AF726A0033BC1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5BEEB29020AF726A0033BC1E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5BEEB29020AF726A0033BC1E /* ColorPresenterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPresenterVC.swift; sourceTree = "<group>"; };
 		5BEEB29320AF726A0033BC1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5BEEB29520AF726C0033BC1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BEEB29820AF726C0033BC1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BEEB29A20AF726C0033BC1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BEEB2A020AF76AA0033BC1E /* ColorPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerVC.swift; sourceTree = "<group>"; };
+		5BEEB2A220AF78D70033BC1E /* ColorTransferDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTransferDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				5BEEB28E20AF726A0033BC1E /* AppDelegate.swift */,
-				5BEEB29020AF726A0033BC1E /* ViewController.swift */,
+				5BEEB29020AF726A0033BC1E /* ColorPresenterVC.swift */,
+				5BEEB2A020AF76AA0033BC1E /* ColorPickerVC.swift */,
+				5BEEB2A220AF78D70033BC1E /* ColorTransferDelegate.swift */,
 				5BEEB29220AF726A0033BC1E /* Main.storyboard */,
 				5BEEB29520AF726C0033BC1E /* Assets.xcassets */,
 				5BEEB29720AF726C0033BC1E /* LaunchScreen.storyboard */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BEEB29120AF726A0033BC1E /* ViewController.swift in Sources */,
+				5BEEB29120AF726A0033BC1E /* ColorPresenterVC.swift in Sources */,
+				5BEEB2A320AF78D70033BC1E /* ColorTransferDelegate.swift in Sources */,
 				5BEEB28F20AF726A0033BC1E /* AppDelegate.swift in Sources */,
+				5BEEB2A120AF76AA0033BC1E /* ColorPickerVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +289,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AH9W8SX84X;
 				INFOPLIST_FILE = ColorMagic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -298,6 +307,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AH9W8SX84X;
 				INFOPLIST_FILE = ColorMagic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
